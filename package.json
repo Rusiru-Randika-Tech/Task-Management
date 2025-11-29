@@ -1,0 +1,16 @@
+{
+  "name": "task-management-y",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "ts-node-esm task-manager.ts",
+    "build": "tsc",
+    "run:built": "node dist/task-manager.js"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3",
+    "@types/node": "^22.9.0"
+  }
+}
